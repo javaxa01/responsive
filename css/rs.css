@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1170px) {
+	.main-div {
+		width: 1024px;
+		background: red;
+	}
+}
+@media (max-width:1024px){
+	.main-div{
+		width:768px;
+		background-color:aqua;
+	}
+	.nasha{
+		background-position:left;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+	.img{
+		height: 500px;
+		background-size: contain;
+	
+	}
+	.saba1{
+	
+	margin-top:-16%;
+	margin-left:23%;
+	font-size:8px;
+}
+}
+@media (max-width:768px){
+	.main-div{
+		width:480px;
+		background-color:orange;
+	}
+	.img{
+		background-image:img/poto.png
+		background-size: cover;
+		background-position: left;
+	
+	}
+	.saba1{
+	margin-top:-16%;
+	margin-left:23%;
+	font-size:8px;
+}
+}
