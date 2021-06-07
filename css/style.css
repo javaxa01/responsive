@@ -108,7 +108,7 @@ table {
 	width:500px;
 	height:300px;
 	margin-top:7%;
-	margin-right:15%;
+	margin-right:9%;
 }
 .img{
 	height: 20%;
@@ -116,7 +116,111 @@ table {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+}
+@media only screen and (max-width: 1170px) {
+	.main-div {
+		width: 1024px;
+		background: red;
+	}
+.mini-box1 {
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+.mini-box2 {
+    float: right;
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    margin-top: 8%;
+    margin-right: -4%;
+}
+}
+@media (max-width:1024px){
+	.main-div{
+		width:768px;
+		background-color:aqua;
+	}
+	.nasha{
+		background-position:left;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+	.img{
+		height: 500px;
+		background-size: contain;
+	
+	}
+	.saba1{
+	
+	margin-top:-16%;
+	margin-left:23%;
+	font-size:8px;
+}
+.mini-box2 {
+    float: right;
+    background-color: #fff;
+    width: 333px;
+    height: 214px;
+    margin-top: 8%;
+    margin-right: 3%;
+}
+.mini-box1 {
+    background-color: #fff;
+    width: 348px;
+    height: 215px;
+    float: left;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+}
+@media (max-width:768px){
+	.main-div{
+		width:480px;
+		background-color:orange;
+	}
+	.img{
+		background-image:img/poto.png
+		background-size: cover;
+		background-position: left;
+	
+	}
+	.saba1{
+	margin-top:-16%;
+	margin-left:23%;
+	font-size:8px;
+}
+.saba2{
+	margin-top:-16%;
+	margin-left:23%;
+	font-size:8px;
+}
+.mini-box1{ 
+	background-color: #fff;
+    width: 369px;
+    height: 192px;
+    float: left;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+.mini-box2{ 
+	background-color: #fff;
+    width: 369px;
+    height: 192px;
+    float: left;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+.mini-box {
+    background-color: #E6E6E6;
+    width: 134%;
+}
+.box {
+    background-color: #363E97;
+    width: 135%;
+    height: 500px;
+}
 }
