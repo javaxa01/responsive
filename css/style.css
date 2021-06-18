@@ -151,7 +151,6 @@ width: 10%;;
 @media only screen and (max-width:1366px) {
 	.main-div {
 		width:1024px;
-		background: rgb(187, 0, 0);
 	}
 	.mini-box2{
 		float: right;
@@ -187,7 +186,6 @@ width: 10%;;
 	@media  (max-width:1024px) {
 		.main-div{
 			width:768px;
-			background-color: brown;
 		}
 		.poto123{
 			flex-wrap: wrap;
@@ -225,7 +223,7 @@ width: 10%;;
 	@media  (max-width:767px) {
 		.main-div{
 			width:480px;
-			background-color:blue;
+
 	}
 	.mini-box2 {
 		float: right;
@@ -271,7 +269,6 @@ width: 10%;;
 	@media (max-width:481px){
 		.main-div{
 			width: 375px;
-			background-color: blueviolet;
 		}
 		.nav-ul{
 			display: none;
@@ -308,7 +305,6 @@ width: 10%;;
 	@media (max-width:374px) {
 		.main-div{
 			width: 360px;
-			background-color:darkgray;
 		}
 		.mini-box2 {
 			float: right;
@@ -336,7 +332,6 @@ width: 10%;;
 	@media (max-width:359px) {
 		.main-div{
 			width:320px;
-			background-color: aqua;
 		}
 		.mini-box2 {
 			float: right;
