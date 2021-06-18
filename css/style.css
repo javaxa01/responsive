@@ -48,7 +48,7 @@ table {
 	text-decoration:none;}
  */
  .main-div{
-	 width:1170px;
+	 width:1366px;
 	 margin: 0% auto;
  }
 .logo{
@@ -148,7 +148,7 @@ width: 10%;;
 .bar{
 	display: none;
 }
-@media only screen and (max-width:1170px) {
+@media only screen and (max-width:1366px) {
 	.main-div {
 		width:1024px;
 		background: rgb(187, 0, 0);
@@ -183,6 +183,7 @@ width: 10%;;
 		height: 400px;
 	}
 	}
+
 	@media  (max-width:1024px) {
 		.main-div{
 			width:768px;
@@ -269,7 +270,7 @@ width: 10%;;
 	}
 	@media (max-width:481px){
 		.main-div{
-			width: 320px;
+			width: 375px;
 			background-color: blueviolet;
 		}
 		.nav-ul{
@@ -284,21 +285,71 @@ width: 10%;;
 			width: 200px;
 			height: 150px;
 			margin-top: 13%;
-			margin-right: 18%;}
+			margin-right: 24%;
+		}
 			.mini-box1 {
 				background-color: #fff;
 				width: 200px;
 				height: 150px;
 				float: left;
 				margin-top: 6%;
-				margin-left: 19%;
+				margin-left: 24%;
 			}
 			.text1w{
 				margin-bottom: -32%;
+				display: none;
 			}
 			.poto1234 {
 				width: 27%;
-				margin-top: 7%;
-				margin-left: 15%;
+				margin-top: 3%;
+                margin-left: 14%;
 			}
+	}
+	@media (max-width:374px) {
+		.main-div{
+			width: 360px;
+			background-color:darkgray;
+		}
+		.mini-box2 {
+			float: right;
+			background-color: #fff;
+			width: 200px;
+			height: 150px;
+			margin-top: 13%;
+			margin-right: 25%;
+		}
+		.poto1234 {
+			width: 27%;
+			margin-top: 4%;
+			margin-left: 14%;
+		}
+		.mini-box1 {
+			background-color: #fff;
+			width: 200px;
+			height: 150px;
+			float: left;
+			margin-top: 6%;
+			margin-left: 19%;
+		}
+		
+	}
+	@media (max-width:359px) {
+		.main-div{
+			width:320px;
+			background-color: aqua;
+		}
+		.mini-box2 {
+			float: right;
+			background-color: #fff;
+			width: 200px;
+			height: 150px;
+			margin-top: 13%;
+			margin-right: 18%;
+		}
+		.poto1234 {
+			width: 27%;
+			margin-top: 7%;
+			margin-left: 15%;
+		}
+		
 	}
